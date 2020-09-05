@@ -1,0 +1,23 @@
+.widget-wrapper {
+    padding: 100px 0;
+
+    .social-icons {
+        svg {
+            font-size: 50px;
+            margin-bottom: 25px;
+        }
+    }
+
+    h2 {
+        color: $orangered;
+        font-size: 52px;
+
+        span {
+            display: block;
+            font-size: 22px;
+            color: #dfdfdf;
+            margin: 25px 0 0;
+        }
+    }
+
+}

@@ -1,0 +1,93 @@
+.contactme-details {
+    padding: 25px;
+    padding-left: 20px;
+    border-radius: 6px;
+    background: #23263a;
+    display: flex;
+    align-items: end;
+
+    .custom-icon {
+        color: $orangered;
+    }
+
+    a {
+        text-align: left;
+        padding-left: 15px;
+        font-weight: bold;
+        min-height: 70px;
+
+
+        &:hover {
+            p {
+                color: $white;
+
+            }
+        }
+
+        p {
+            font-weight: normal;
+            margin-bottom: 0;
+            pointer-events: none;
+
+            &:hover {
+                color: $white !important;
+                text-decoration: none !important;
+            }
+        }
+    }
+}
+
+a {
+    &:hover {
+        text-decoration: none !important;
+        color: $orangered !important;
+    }
+}
+
+.form-group {
+
+    input {
+        border: none;
+        width: 100%;
+        background: #23263a;
+        color: #fff;
+        padding: 20px 35px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        min-height: 66px;
+    }
+
+    textarea {
+        border: none;
+        width: 100%;
+        background: #23263a;
+        color: #fff;
+        padding: 20px 35px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        min-height: 100px;
+    }
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-color: #23263a !important;
+    background-image: none !important;
+    color: -internal-light-dark(black, white) !important;
+}
+
+input::placeholder {
+    color: $white !important;
+    opacity: 0.7 !important;
+}
+
+textarea::placeholder {
+    color: $white !important;
+    opacity: 0.7 !important;
+
+}
+
+.message {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}

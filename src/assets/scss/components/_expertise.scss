@@ -1,0 +1,15 @@
+.expertise-wrapper {
+  .heading {
+    span {
+      max-width: inherit;
+    }
+  }
+
+  .skills-section {
+    flex-flow: column wrap;
+    margin-top: 0;
+
+    .skills-wrapper {}
+  }
+
+}

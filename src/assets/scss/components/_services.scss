@@ -1,0 +1,33 @@
+.heading {
+  position: relative;
+  margin-bottom: 100px;
+
+  &::after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 3px;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: $orangered;
+  }
+
+  p {
+    color: $orangered;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  span {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 70%;
+  }
+}

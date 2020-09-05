@@ -40,12 +40,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   font-family: 'kanitregular';
-  color: #fff;
+  color: $white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h3 {
+  font-family: 'kanitlight';
 }
 
 /* Reset CSS */
@@ -76,7 +80,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: $white;
   outline: none;
 }
 
